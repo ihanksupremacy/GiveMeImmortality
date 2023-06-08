@@ -14,8 +14,8 @@ public class tembakan : MonoBehaviour
         {
             //membuat objek peluru dan menembakkannya
             GameObject peluruS = Instantiate(peluru, pointTembak.position, pointTembak.rotation);
-            peluruS.GetComponent<Rigidbody2D>().velocity = transform.right * 25;
-            Destroy(peluruS, 2f);
+            peluruS.GetComponent<Rigidbody2D>().velocity = transform.right * 50;
+            Destroy(peluruS, 0.3f);
 
             //mengatur status bisaMenembak menjadi false untuk menunggu 1 detik
             bisaMenembak = false;

@@ -10,7 +10,7 @@ public class musuuuh : MonoBehaviour
     public float damage = 1f; // damage yang diberikan pada musuh
 
     void Start() {
-        InvokeRepeating("EnemyAttack", 1.5f, 3f);
+        InvokeRepeating("EnemyAttack", 1.8f, 3f);
     }
 
     void EnemyAttack()
